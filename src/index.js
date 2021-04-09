@@ -1,6 +1,6 @@
 import './styles.css'
 
-import { Todo, TodoList} from './classes'; //busca por defecto el index.js
+import { Todo, TodoList} from './classes';
 import { crearTodoHtml } from './js/componentes';
 
 //export para usarlo en otro archivo (componentes)

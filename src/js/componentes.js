@@ -89,7 +89,7 @@ ulFiltors.addEventListener('click', (event) =>{
     //event.taget hace refetencia al anchor (btn de abajo) que acabo de seleccionar
     event.target.classList.add('selected');
 
-    for( const elemento of divTodoList.children ){ //recorremos todos los ulv(hijos del div)
+    for( const elemento of divTodoList.children ){ //recorremos todos los ul (hijos del div)
         elemento.classList.remove('hidden'); //limpiamos removiendo a todos la clase hidden
         const completado = elemento.classList.contains('completed'); //tarea esta completada?
 
